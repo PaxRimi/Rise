@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.typekit.net/mxt0jbh.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script rel="script" type="text/javascript" src="JS/script.js"></script>
 </head>
 <body>
+    <button id="TopBtn" class="Top" title="Go to top">&#8686;</button>
     <div class="container">
         <header>
             <img src="images/logo.png">
@@ -52,7 +54,7 @@
             <img src="images/silverMicro.png" class="about_sMicro2">
             <img src="images/SBall61x61.png" class="about_sMid1">
             <img src="images/halfBall252x315.png" class="about_hBall">
-            <div class="about_rise">
+            <div class="about_rise" id="sensora">
                 <img src="images/rise.png">
                 <span>01</span>
                 <p>
@@ -95,7 +97,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="about_mission">
+            <div class="about_mission" id="mission">
                 <p>
                     Wierzymy, że kreatywność i postęp nie mają granic, a wychodzenie pozaramy otwiera wiele możliwości, dlatego tworzymy eventy, w którychpodstawą jest dostarczanie niezapomnianych emocji. W naszychprodukcjach dążymy do kreowania zaskakującej i porywającej przestrzeni,
                     w której uczestnicy eventu mogą poczuć się wyjątkowo i niepowatrzalnie.Multidyscyplinarny zespół, odwaga i nastawienie na sukces to fundamentynaszych działań.
@@ -108,7 +110,7 @@
                 <img src="images/sHeart50x60.png" class="about_mission_SH">
             </div>
         </section>
-        <section class="items">
+        <section class="items" id="items">
             <img src="images/silverMicro.png" class="items_sMicro1">
             <img src="images/silverMicro.png" class="items_sMicro2">
             <img src="images/silverMicro.png" class="items_sMicro3">
@@ -219,7 +221,7 @@
                 </div>
             </div>
         </section>
-        <section class="info">
+        <section class="info" id="info">
             <img src="images/info_wBall.png" class="info_wBall">
             <img src="images/silverBalls.png" class="info_sBall">
             <img src="images/info_sHeart.png" class="info_Heart">
@@ -255,9 +257,8 @@
                 </span>
             </div>
         </section>
-        <section class="contact">
+        <section class="contact" id="contact">
             <img src="images/contact_box.png" class="contact_box">
-            <img src="images/contact_rightEgg.png" class="contact_rightEgg">
             <img src="images/silverBalls.png" class="contact_sBall1">
             <img src="images/items_wBall52x52.png" class="contact_wBall1">
             <div class="contact_form">
@@ -310,23 +311,35 @@
             <nav>
                 <ul>
                     <li>
-                        sansara group
+                        <a href="#sensora">
+                            sansara group
+                        </a>
                     </li>
                     <li>
-                        misja & wizja
+                        <a href="#mission">
+                            misja & wizja
+                        </a>
                     </li>
                     <li>
-                        oferta
+                        <a href="#items">
+                            oferta
+                        </a>
                     </li>
                     <li>
-                        realizacje
+                        <a href="#info">
+                            realizacje
+                        </a>
                     </li>
                     <li>
-                        kontakt
+                        <a href="#contact">
+                            kontakt
+                        </a>
                     </li>
                 </ul>
             </nav>
-            <img src="images/John%20Weston.png" class="footer_John">
+            <a href="http://john-weston.com" target="_blank">
+                <img src="images/John%20Weston.png" class="footer_John">
+            </a>
         </div>
     </footer>
 </body>
