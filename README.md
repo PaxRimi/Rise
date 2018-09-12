@@ -1,6 +1,6 @@
 Site created as a recruitment task.
 
-Technology used:
+Technology used: 
 -Html
 -Sass
 -JavaScript
